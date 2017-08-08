@@ -13,7 +13,7 @@ android/jni/SDL2_mixer
 android/jni/libmikmod*
 android/jni/smpeg*
 
-web/shmupwarz.*
+web/march3.*
 # Compiled source #
 ###################
 *.com
