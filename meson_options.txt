@@ -1,4 +1,0 @@
-option('EMSCRIPTEN',type : 'string', value: '')
-option('ANDROID',type : 'string', value: '')
-option('NOGOBJECT',type : 'string', value: '')
-option('DESKTOP',type : 'string', value: '')

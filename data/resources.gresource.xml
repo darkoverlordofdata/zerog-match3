@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gresources>
-  <gresource prefix="/darkoverlordofdata/match3">
-    <file>assets/assets.atlas</file>
-    <file>assets/assets.png</file>
-    <file>assets/fonts/OpenDyslexic-Bold.otf</file>
-    <file>assets/fonts/TitanOne-Regular.ttf</file>
-  </gresource>
-</gresources>
