@@ -1,0 +1,78 @@
+
+assets.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+air
+  rotate: false
+  xy: 206, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 356
+  size: 1000, 640
+  orig: 1000, 640
+  offset: 0, 0
+  index: -1
+board
+  rotate: false
+  xy: 104, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+btn
+  rotate: false
+  xy: 1004, 944
+  size: 12, 52
+  split: 4, 5, 6, 7
+  orig: 12, 52
+  offset: 0, 0
+  index: -1
+btnPressed
+  rotate: false
+  xy: 2, 2
+  size: 12, 46
+  split: 4, 5, 4, 5
+  orig: 12, 46
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 2, 254
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+earth
+  rotate: false
+  xy: 104, 152
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+fire
+  rotate: false
+  xy: 2, 50
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skull
+  rotate: false
+  xy: 2, 152
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+water
+  rotate: false
+  xy: 104, 50
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
