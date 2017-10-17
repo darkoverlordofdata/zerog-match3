@@ -7,6 +7,8 @@ project_name: match3
 *define: ANDROID
 *define: NOGOBJECT
 *define: DESKTOP
+*define: NODEJS
+*define: LIBRARY
 
 gresource: resources_gresource_xml data/resources.gresource.xml
 
@@ -47,6 +49,7 @@ c_library: m
 *vala_source: goop/Guid.vala
 *vala_source: main.vala
 *vala_source: match3.vala
+*vala_source: sdx/AbstractGame.vala
 *vala_source: sdx/ApplicationListener.vala
 *vala_source: sdx/Color.vala
 *vala_source: sdx/Files.vala
@@ -75,6 +78,9 @@ c_library: m
 *vala_source: sdx/math/TweenManager.vala
 *vala_source: sdx/math/Tweenbase.vala
 *vala_source: sdx/math/Vector2.vala
+*vala_source: sdx/script/JsFactory.gs
+*vala_source: sdx/script/JsGame.gs
+*vala_source: sdx/script/api.gs
 *vala_source: sdx/sdx.vala
 *vala_source: sdx/ui/Button.vala
 *vala_source: sdx/ui/Component.vala
@@ -176,6 +182,7 @@ c_library: m
 *translate: vala src/main.vala
 *translate: vala src/match3.vala
 *translate: c src/mt19937ar.c
+*translate: vala src/sdx/AbstractGame.vala
 *translate: vala src/sdx/ApplicationListener.vala
 *translate: vala src/sdx/Color.vala
 *translate: vala src/sdx/Files.vala
@@ -204,6 +211,9 @@ c_library: m
 *translate: vala src/sdx/math/TweenManager.vala
 *translate: vala src/sdx/math/Tweenbase.vala
 *translate: vala src/sdx/math/Vector2.vala
+*translate: genie src/sdx/script/JsFactory.gs
+*translate: genie src/sdx/script/JsGame.gs
+*translate: genie src/sdx/script/api.gs
 *translate: vala src/sdx/sdx.vala
 *translate: vala src/sdx/ui/Button.vala
 *translate: vala src/sdx/ui/Component.vala

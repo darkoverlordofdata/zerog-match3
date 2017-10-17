@@ -18,6 +18,7 @@ src/goop/Class.vala
 src/goop/Guid.vala
 src/main.vala
 src/match3.vala
+src/sdx/AbstractGame.vala
 src/sdx/ApplicationListener.vala
 src/sdx/Color.vala
 src/sdx/Files.vala
@@ -46,6 +47,9 @@ src/sdx/math/TweenAccessor.vala
 src/sdx/math/TweenManager.vala
 src/sdx/math/Tweenbase.vala
 src/sdx/math/Vector2.vala
+src/sdx/script/JsFactory.gs
+src/sdx/script/JsGame.gs
+src/sdx/script/api.gs
 src/sdx/sdx.vala
 src/sdx/ui/Button.vala
 src/sdx/ui/Component.vala
