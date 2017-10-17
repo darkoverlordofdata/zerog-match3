@@ -28,11 +28,8 @@ vala_check_package: gio-2.0
 vala_check_package: glib-2.0
 vala_check_package: gobject-2.0
 vala_check_package: sdl2
+*vala_check_package: gee-0.8
 c_library: m
-*vala_source: Board.vala
-*vala_source: Jewel.vala
-*vala_source: TweenAccessors.vala
-*vala_source: components.vala
 *vala_source: entitas/Group.vala
 *vala_source: entitas/Matcher.vala
 *vala_source: entitas/World.vala
@@ -44,11 +41,8 @@ c_library: m
 *vala_source: entitas/events/GroupUpdated.vala
 *vala_source: entitas/events/GroupsChanged.vala
 *vala_source: entitas/events/WorldChanged.vala
-*vala_source: entity.vala
 *vala_source: goop/Class.vala
 *vala_source: goop/Guid.vala
-*vala_source: main.vala
-*vala_source: match3.vala
 *vala_source: sdx/AbstractGame.vala
 *vala_source: sdx/ApplicationListener.vala
 *vala_source: sdx/Color.vala
@@ -90,6 +84,13 @@ c_library: m
 *vala_source: sdx/utils/Json.vala
 *vala_source: sdx/utils/StringTokenizer.vala
 *vala_source: sdx/utils/utils.vala
+*vala_source: source/Board.vala
+*vala_source: source/Jewel.vala
+*vala_source: source/TweenAccessors.vala
+*vala_source: source/components.vala
+*vala_source: source/entity.vala
+*vala_source: source/main.vala
+*vala_source: source/match3.vala
 *c_source: lua/lapi.c
 *c_source: lua/lauxlib.c
 *c_source: lua/lbaselib.c
@@ -122,17 +123,13 @@ c_library: m
 *c_source: lua/lundump.c
 *c_source: lua/lvm.c
 *c_source: lua/lzio.c
-*c_source: mt19937ar.c
-*h_folder: .
+*c_source: mt19937/mt19937ar.c
 *h_folder: lua
+*h_folder: mt19937
 
 
 *po: po
 
-*translate: vala src/Board.vala
-*translate: vala src/Jewel.vala
-*translate: vala src/TweenAccessors.vala
-*translate: vala src/components.vala
 *translate: vala src/entitas/Group.vala
 *translate: vala src/entitas/Matcher.vala
 *translate: vala src/entitas/World.vala
@@ -144,7 +141,6 @@ c_library: m
 *translate: vala src/entitas/events/GroupUpdated.vala
 *translate: vala src/entitas/events/GroupsChanged.vala
 *translate: vala src/entitas/events/WorldChanged.vala
-*translate: vala src/entity.vala
 *translate: vala src/goop/Class.vala
 *translate: vala src/goop/Guid.vala
 *translate: c src/lua/lapi.c
@@ -179,9 +175,7 @@ c_library: m
 *translate: c src/lua/lundump.c
 *translate: c src/lua/lvm.c
 *translate: c src/lua/lzio.c
-*translate: vala src/main.vala
-*translate: vala src/match3.vala
-*translate: c src/mt19937ar.c
+*translate: c src/mt19937/mt19937ar.c
 *translate: vala src/sdx/AbstractGame.vala
 *translate: vala src/sdx/ApplicationListener.vala
 *translate: vala src/sdx/Color.vala
@@ -223,6 +217,13 @@ c_library: m
 *translate: vala src/sdx/utils/Json.vala
 *translate: vala src/sdx/utils/StringTokenizer.vala
 *translate: vala src/sdx/utils/utils.vala
+*translate: vala src/source/Board.vala
+*translate: vala src/source/Jewel.vala
+*translate: vala src/source/TweenAccessors.vala
+*translate: vala src/source/components.vala
+*translate: vala src/source/entity.vala
+*translate: vala src/source/main.vala
+*translate: vala src/source/match3.vala
 
 *data: data/local
 

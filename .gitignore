@@ -20,8 +20,7 @@ src/entitas
 src/sdx
 src/vapis
 src/vapis-em
-src/mt19937ar.c
-src/mt19937ar.h
+src/mt19937
 
 web/match3.*
 # Compiled source #
