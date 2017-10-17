@@ -13,7 +13,17 @@ android/jni/SDL2_mixer
 android/jni/libmikmod*
 android/jni/smpeg*
 
-web/march3.*
+# linked Libraries #
+####################
+src/goop
+src/entitas
+src/sdx
+src/vapis
+src/vapis-em
+src/mt19937ar.c
+src/mt19937ar.h
+
+web/match3.*
 # Compiled source #
 ###################
 *.com
